@@ -1,12 +1,12 @@
-public Runner {
+public class Runner {
 	public static void main(String[] args) {
      Person iSt = new InternationalStudent("Jacques Francios", "23 Rue de Madeline", "Marseille, FR", "Lycee Seconde", "Ecole Polytechnic", "FR");
 System.out.println(iSt);
 iSt.overRideThis("French Student");
 
 // Step 10
-	Parent p = newStudent();
-	if (p instanceOf Student) {
+	Person p = new Student();
+	if (p instanceof Student) {
 		Student s = (Student)p;
 		System.out.println("Succesfully casted the class");
 	}

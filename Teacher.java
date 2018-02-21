@@ -3,11 +3,11 @@ public class Teacher extends Person {
 
 	public Teacher() {
 		super();
-		subjet = "Computer Science";
+		subject = "Computer Science";
 	}
 
-	public Teacher(String name, String address, String subject) {
-		super(name, address);
+	public Teacher(String name, String address,String csz, String subject) {
+		super(name, address, csz);
 		this.subject = subject;
 	}
 

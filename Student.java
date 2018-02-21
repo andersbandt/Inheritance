@@ -9,11 +9,12 @@ public class Student extends Person {
 		grade = "Freshman";
 	}
 
-	public Student(String name, String address, String csz, String school, String name) {}
+	public Student(String name, String address, String csz, String school, String grade) {
 	super(name, address, csz);
 	this.school = school;
-	this.name = name;
+	this.grade = grade;
 }
+
 
     public void setSchool(String a) { //sets school
     	school = a;
